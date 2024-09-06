@@ -16,7 +16,7 @@ const Cards = ({courses}) => {
   }
 
   return(
-    <div>
+    <div className="flex flex-wrap justify-center gap-4 mb-4" >
        {getCourses().map( (course) => {
         return <Card course = { course} />
        })}
